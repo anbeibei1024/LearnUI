@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="toFAB"
+        android:text="FAB" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="toAppbarLayout"
+        android:text="AppBarLayout scroll" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="toAppbarLayout1"
+        android:text="AppBarLayout   enterAlways" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="toAppbarLayout2"
+        android:text="AppBarLayout   enterAlwaysCollapsed" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="toAppbarLayout3"
+        android:text="AppBarLayout   exitUntilCollapsed" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="toCollapsingToolbarLayout"
+        android:text="CollapsingToolbarLayout_enterAlwaysCollapsed" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="toCollapsingToolbarLayout1"
+        android:text="CollapsingToolbarLayout_exitUntilCollapsed" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="toCollapsingToolbarLayout2"
+        android:text="CollapsingToolbarLayout_parallax "/>
+</LinearLayout>
